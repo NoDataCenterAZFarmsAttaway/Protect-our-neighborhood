@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protect Our Community | Data Center Opposition</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .hero-gradient { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1473081556163-2a17281fe7df?auto=format&fit=crop&w=1600&q=80'); background-size: cover; background-position: center; }
+        .accent-border { border-left: 4px solid #e11d48; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+    <!-- Hero Section -->
+    <header class="hero-gradient h-[60vh] flex items-center justify-center text-center text-white px-4">
+        <div class="max-w-4xl">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">Protect Our Community</h1>
+            <p class="text-xl md:text-2xl mb-8 text-gray-200">Say NO to the industrial expansion at Arizona Farms and Attaway Roads.</p>
+            <a href="#action" class="bg-rose-600 hover:bg-rose-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg">Take Action Now</a>
+        </div>
+    </header>
+
+    <!-- Video Section -->
+    <section class="max-w-5xl mx-auto py-16 px-4">
+        <h2 class="text-3xl font-bold mb-8 text-center">A Personal Message</h2>
+        <div class="aspect-video bg-black rounded-xl shadow-2xl flex items-center justify-center overflow-hidden">
+            <!-- Replace 'VIDEO_ID' with your YouTube ID -->
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- Impact Grid -->
+    <section class="bg-white py-16 px-4 shadow-inner">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12 text-center text-gray-800">The Actual Impact</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="p-6 bg-gray-50 rounded-lg accent-border">
+                    <h3 class="font-bold text-xl mb-2 text-rose-700">Noise & Vibration</h3>
+                    <p class="text-gray-600 text-sm">A 24/7 low-frequency hum that penetrates walls and disrupts sleep for nearby families.</p>
+                </div>
+                <div class="p-6 bg-gray-50 rounded-lg accent-border">
+                    <h3 class="font-bold text-xl mb-2 text-rose-700">Water Consumption</h3>
+                    <p class="text-gray-600 text-sm">Millions of gallons of potable water used daily for cooling in our desert climate.</p>
+                </div>
+                <div class="p-6 bg-gray-50 rounded-lg accent-border">
+                    <h3 class="font-bold text-xl mb-2 text-rose-700">Heat Island</h3>
+                    <p class="text-gray-600 text-sm">Thermal plumes increase local temperatures and put strain on residential AC units.</p>
+                </div>
+                <div class="p-6 bg-gray-50 rounded-lg accent-border">
+                    <h3 class="font-bold text-xl mb-2 text-rose-700">Property Values</h3>
+                    <p class="text-gray-600 text-sm">Industrial blight and noise pollution can significantly decrease home resale value.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- White Papers / Downloads -->
+    <section class="max-w-4xl mx-auto py-16 px-4">
+        <h2 class="text-3xl font-bold mb-8 text-center">Evidence & Resources</h2>
+        <div class="space-y-4">
+            <a href="#" class="flex items-center justify-between p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition">
+                <span class="font-medium text-gray-800">Health Impact Statement - Noise & Vibration</span>
+                <span class="text-rose-600 font-bold">Download PDF &rarr;</span>
+            </a>
+            <a href="#" class="flex items-center justify-between p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition">
+                <span class="font-medium text-gray-800">Environmental Impact of Data Center Cooling</span>
+                <span class="text-rose-600 font-bold">Download PDF &rarr;</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section id="action" class="bg-rose-900 text-white py-20 px-4 text-center">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-4xl font-bold mb-6">Will You Help?</h2>
+            <p class="text-xl mb-10 text-rose-100">It takes 30 seconds to send a message to the Florence Town Council. Use our template to make your voice heard.</p>
+            <a href="mailto:Council@FlorenceAZ.gov?subject=Opposition to Arizona Farms/Attaway Data Center&body=Dear Council Members,%0D%0A%0D%0AI am writing to formally express my opposition to the proposed data center projects at Arizona Farms and Attaway Roads. I am concerned about the 24/7 noise levels, the heat island effect, and the massive water consumption in our desert environment.%0D%0A%0D%0APlease prioritize our community's health and property values.%0D%0A%0D%0ARespectfully,%0D%0A[Your Name]" 
+               class="bg-white text-rose-900 px-10 py-5 rounded-full font-black text-xl hover:scale-105 transition transform shadow-2xl inline-block">
+                SEND EMAIL TO COUNCIL
+            </a>
+        </div>
+    </section>
+
+    <footer class="py-10 text-center text-gray-500 text-sm">
+        <p>&copy; 2026 Community Advocacy Group. Not authorized by any candidate or candidate's committee.</p>
+    </footer>
+
+</body>
+</html>
