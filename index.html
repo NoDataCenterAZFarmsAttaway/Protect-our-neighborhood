@@ -1,110 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Protect Our Neighborhood | Florence, AZ</title>
-    <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* Arizona State Flag Colors */
-        .bg-az-blue { background-color: #002664; } /* Federal Blue */
-        .bg-az-red { background-color: #BF0A30; }  /* Old Glory Red */
-        .text-az-copper { color: #B9722D; }        /* Copper/Gold */
-        .border-az-copper { border-color: #B9722D; }
+        /* Arizona Flag Inspired Palette - Bulletproof CSS */
+        body { font-family: sans-serif; margin: 0; padding: 0; line-height: 1.6; color: #333; background-color: #fff; }
+        
+        header { background-color: #002664; color: white; text-align: center; padding: 60px 20px; border-bottom: 8px solid #B9722D; }
+        header h1 { font-size: 3rem; margin: 0; text-transform: uppercase; font-style: italic; }
+        header p { font-size: 1.2rem; max-width: 700px; margin: 20px auto; color: #ddd; }
+
+        .btn-red { background-color: #BF0A30; color: white; padding: 15px 30px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block; margin: 10px; }
+        .btn-outline { border: 1px solid white; color: white; padding: 15px 30px; text-decoration: none; border-radius: 5px; display: inline-block; margin: 10px; }
+
+        .container { max-width: 800px; margin: auto; padding: 40px 20px; }
+        
+        .impact-box { background-color: #002664; color: white; padding: 30px; border-radius: 15px; border-left: 10px solid #B9722D; margin-top: 30px; }
+        .impact-box h3 { color: #B9722D; text-transform: uppercase; margin-top: 0; }
+        .impact-box ul { list-style: none; padding: 0; }
+        .impact-box li { margin-bottom: 15px; display: flex; align-items: flex-start; }
+        .impact-box li span { color: #BF0A30; font-weight: bold; margin-right: 15px; font-size: 1.5rem; line-height: 1; }
+
+        .resource-section { background-color: #f4f4f4; padding: 40px 0; border-top: 1px solid #ddd; }
+        .card { background: white; padding: 20px; margin-bottom: 20px; border-radius: 10px; border-top: 5px solid #BF0A30; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .card h3 { margin-top: 0; color: #002664; }
+        .card a { display: block; background: #eee; padding: 10px; margin-top: 10px; text-decoration: none; color: #BF0A30; font-weight: bold; border-radius: 4px; }
+        .card a:hover { background: #002664; color: white; }
+
+        .action-section { background-color: #BF0A30; color: white; text-align: center; padding: 60px 20px; }
+        .btn-blue { background-color: #002664; color: white; padding: 20px 40px; text-decoration: none; border-radius: 50px; font-size: 1.5rem; font-weight: bold; display: inline-block; box-shadow: 0 4px 15px rgba(0,0,0,0.3); }
+
+        footer { background-color: #002664; color: #aaa; text-align: center; padding: 40px 20px; font-size: 0.8rem; text-transform: uppercase; }
     </style>
 </head>
-<body class="bg-white text-gray-900 font-sans selection:bg-yellow-100">
+<body>
 
-    <header class="relative bg-az-blue py-24 px-4 text-center text-white border-b-8 border-az-copper">
-        <div class="relative z-10 max-w-4xl mx-auto">
-            <span class="inline-block bg-az-red text-white text-xs font-bold px-3 py-1 rounded-full mb-6 uppercase tracking-widest shadow-md">Community Action Alert</span>
-            <h1 class="text-4xl md:text-6xl font-black mb-6 leading-tight tracking-tight uppercase italic">
-                Protect Our Community
-            </h1>
-            <p class="text-lg md:text-xl text-gray-200 mb-10 max-w-2xl mx-auto font-medium">
-                Florence residents standing together against industrial expansion at Arizona Farms and Attaway Roads.
-            </p>
-            <div class="flex flex-col md:flex-row justify-center gap-4">
-                <a href="#action" class="bg-az-red hover:bg-red-700 text-white px-8 py-4 rounded-lg font-bold text-lg shadow-lg transition-all transform hover:scale-105">
-                    Send Email to Council
-                </a>
-                <a href="#resources" class="bg-white/10 hover:bg-white/20 text-white backdrop-blur-md border border-white/30 px-8 py-4 rounded-lg font-bold text-lg transition-all">
-                    View Evidence
-                </a>
-            </div>
-        </div>
+    <header>
+        <h1>Protect Our Community</h1>
+        <p>Florence residents standing together against industrial expansion at Arizona Farms and Attaway Roads.</p>
+        <a href="#action" class="btn-red">SEND EMAIL NOW</a>
+        <a href="#resources" class="btn-outline">VIEW EVIDENCE</a>
     </header>
 
-    <section class="max-w-4xl mx-auto py-16 px-6">
-        <div class="text-center mb-10">
-            <h2 class="text-3xl font-bold text-az-blue mb-4 uppercase tracking-tighter">A Message to Our Neighbors</h2>
-            <div class="h-1.5 w-24 bg-az-red mx-auto rounded-full"></div>
-        </div>
-        
-        <div class="space-y-8">
-            <p class="text-lg text-gray-700 leading-relaxed text-center max-w-2xl mx-auto">
-                Our community deserves to remain a residential haven. The proposed industrial expansion threatens the peace, safety, and character of our homes.
-            </p>
+    <div class="container">
+        <h2 style="text-align:center; color:#002664;">A Message to Our Neighbors</h2>
+        <p style="text-align:center; font-style:italic; font-size: 1.1rem;">"The proposed industrial projects threaten the peace, safety, and desert character of our homes."</p>
 
-            <div class="bg-az-blue text-white p-8 rounded-2xl shadow-2xl border-l-8 border-az-copper">
-                <h3 class="text-az-copper font-black uppercase tracking-widest text-sm mb-6">The Real Impact: What They Aren't Telling You</h3>
-                <ul class="space-y-5 text-gray-200 list-none p-0">
-                    <li class="flex items-start">
-                        <span class="text-az-red mr-3 font-bold text-xl">✕</span>
-                        <span><strong class="text-white">24/7 Acoustic Pollution:</strong> Industrial cooling fans create a constant "low-frequency hum" that travels through walls and causes chronic stress.</span>
-                    </li>
-                    <li class="flex items-start">
-                        <span class="text-az-red mr-3 font-bold text-xl">✕</span>
-                        <span><strong class="text-white">Water Depletion:</strong> In our desert climate, these facilities consume millions of gallons of water daily, straining our local water table.</span>
-                    </li>
-                    <li class="flex items-start">
-                        <span class="text-az-red mr-3 font-bold text-xl">✕</span>
-                        <span><strong class="text-white">Utility Rate Hikes:</strong> Residents often bear the cost of the massive electrical infrastructure upgrades needed for industrial loads.</span>
-                    </li>
-                    <li class="flex items-start">
-                        <span class="text-az-red mr-3 font-bold text-xl">✕</span>
-                        <span><strong class="text-white">Safety Hazards:</strong> Battery storage (BESS) introduces risks of chemical fires and toxic off-gassing near residential zones.</span>
-                    </li>
-                    <li class="flex items-start">
-                        <span class="text-az-red mr-3 font-bold text-xl">✕</span>
-                        <span><strong class="text-white">Property Devaluation:</strong> Industrial blighting and transmission lines can decrease home values by 10-15%.</span>
-                    </li>
-                </ul>
+        <div class="impact-box">
+            <h3>The Real Impact: What They Aren't Telling You</h3>
+            <ul>
+                <li><span>✕</span> <div><strong>24/7 Noise Pollution:</strong> Constant low-frequency hum from cooling fans linked to sleep deprivation and stress.</div></li>
+                <li><span>✕</span> <div><strong>Water Depletion:</strong> These facilities consume millions of gallons of water daily in our desert environment.</div></li>
+                <li><span>✕</span> <div><strong>Utility Rate Hikes:</strong> Residents often pay for the infrastructure upgrades needed to power industrial loads.</div></li>
+                <li><span>✕</span> <div><strong>Safety Hazards:</strong> Battery storage (BESS) risks chemical fires and toxic off-gassing near homes.</div></li>
+                <li><span>✕</span> <div><strong>Property Devaluation:</strong> Industrial blighting can decrease nearby home values by 10-15%.</div></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="resources" class="resource-section">
+        <div class="container">
+            <h2 style="text-align:center; color:#002664;">The Evidence Center</h2>
+            
+            <div class="card">
+                <h3>🔇 Health & Noise Pollution</h3>
+                <a href="health-impact-statement.pdf" target="_blank">Download Health Statement (PDF) →</a>
+                <a href="https://www.eesi.org/articles/view/communities-are-raising-noise-pollution-concernsabout-data-centers" target="_blank">View EESI National Noise Study ↗</a>
+            </div>
+
+            <div class="card">
+                <h3>💧 Water & Utility Costs</h3>
+                <a href="environmental-impact-cooling.pdf" target="_blank">Download Cooling Study (PDF) →</a>
+                <a href="https://news.ucr.edu/articles/2026/03/09/data-center-water-spikes-could-cost-billions" target="_blank">View Infrastructure Cost Study ↗</a>
+            </div>
+
+            <div class="card">
+                <h3>🔋 Battery Fire Risks (BESS)</h3>
+                <a href="https://fsri.org/research-update/considerations-fire-service-response-residential-energy-storage-system-incidents" target="_blank">View Fire Service Research ↗</a>
             </div>
         </div>
-    </section>
+    </div>
 
-    <section id="resources" class="bg-gray-50 py-16 px-6 border-y border-gray-200">
-        <div class="max-w-4xl mx-auto">
-            <h2 class="text-3xl font-bold text-az-blue mb-2 text-center uppercase tracking-tight">The Evidence Center</h2>
-            <p class="text-center text-az-copper mb-12 uppercase text-xs font-bold tracking-widest italic">Scientific Data & Technical Reports</p>
-            
-            <div class="grid md:grid-cols-2 gap-6">
-                <div class="bg-white p-6 rounded-xl shadow-sm border-t-4 border-az-red">
-                    <h3 class="text-xl font-bold text-az-blue mb-4">🔇 Health & Noise</h3>
-                    <div class="space-y-3">
-                        <a href="health-impact-statement.pdf" target="_blank" class="block p-3 bg-gray-50 rounded hover:bg-az-blue hover:text-white transition-colors text-sm font-semibold">
-                            Health Impact Statement (PDF) →
-                        </a>
-                        <a href="https://www.eesi.org/articles/view/communities-are-raising-noise-pollution-concernsabout-data-centers" target="_blank" class="block p-3 bg-gray-50 rounded hover:bg-az-blue hover:text-white transition-colors text-sm font-semibold<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Protect Our Neighborhood | Florence, AZ</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-white text-gray-900 font-sans selection:bg-rose-100 selection:text-rose-900">
+    <div id="action" class="action-section">
+        <h2>Will You Take Action?</h2>
+        <p style="margin-bottom:30px;">It takes 30 seconds to send your opposition to the Florence Town Council.</p>
+        <a href="mailto:Council@FlorenceAZ.gov?subject=Opposition to AZ Farms/Attaway Projects" class="btn-blue">SEND EMAIL TO COUNCIL</a>
+    </div>
 
-    <header class="relative bg-slate-900 py-24 px-4 text-center text-white">
-        <div class="absolute inset-0 bg-black opacity-60"></div> 
-        <div class="relative z-10 max-w-4xl mx-auto">
-            <span class="inline-block bg-rose-600 text-white text-xs font-bold px-3 py-1 rounded-full mb-6 uppercase tracking-widest">Community Action Alert</span>
-            <h1 class="text-4xl md:text-6xl font-black mb-6 leading-tight tracking-tight uppercase">
-                Protect Our Community
-            </h1>
-            <p class="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl mx-auto font-medium">
-                Florence residents standing together against industrial expansion at Arizona Farms and Attaway Roads.
-            </p>
-            <div class="flex flex-col md:flex-row justify-center gap-4">
-                <a href="#action" class="bg-rose-600 hover:
+    <footer>
+        <p style="color:white; font-weight:bold; margin-bottom:10px;">Community Advocacy Group of Florence, AZ</p>
+        <p>&copy; 2026 Not authorized by any candidate or candidate's committee.</p>
+    </footer>
+
+</body>
+</html>
