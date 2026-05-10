@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protect Our Neighborhood - Noise Concerns</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
+        h1 { color: #2c3e50; border-bottom: 2px solid #eee; }
+        .resource-box { background: #f9f9f9; padding: 15px; border-left: 5px solid #e74c3c; margin: 20px 0; }
+        .source-link { display: inline-block; margin-top: 10px; font-weight: bold; color: #3498db; text-decoration: none; }
+        .source-link:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <h1>Noise Pollution Concerns</h1>
+    
+    <p>Data centers operate 24/7, creating a constant low-frequency hum from industrial cooling fans and backup generators. Unlike intermittent noise, this persistent sound can have significant impacts on residential health.</p>
+
+    <div class="resource-box">
+        <h3>Key Findings from EESI:</h3>
+        <ul>
+            <li><strong>Constant Exposure:</strong> Constant noise above 65 decibels is linked to increased blood pressure and stress.</li>
+            <li><strong>Low-Frequency Vibration:</strong> The "hum" can travel through walls and windows, making it difficult to mitigate with standard home insulation.</li>
+            <li><strong>Sleep Disturbance:</strong> Ongoing nighttime noise is a leading cause of sleep deprivation in communities near industrial zones.</li>
+        </ul>
+        
+        <p>
+            <strong>Official Report:</strong> 
+            <a href="noise-pollution-study.pdf" class="source-link">Read PDF</a> | 
+            <a href="https://www.eesi.org/articles/view/communities-are-raising-noise-pollution-concernsabout-data-centers" target="_blank" class="source-link">View Original Source</a>
+        </p>
+    </div>
+
+    <p><a href="index.html">← Back to Home</a></p>
+
+</body>
+</html>
