@@ -5,6 +5,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Protect Our Neighborhood | Florence, AZ</title>
     <style>
+        /* Arizona State Flag Palette */
+        body { font-family: sans-serif; margin: 0; padding: 0; line-height: 1.6; color: #333; background-color: #fff; }
+        
+        header { background-color: #002664; color: white; text-align: center; padding: 60px 20px; border-bottom: 8px solid #B9722D; }
+        header h1 { font-size: 3rem; margin: 0; text-transform: uppercase; font-style: italic; }
+        header p { font-size: 1.2rem; max-width: 700px; margin: 20px auto; color: #ddd; }
+
+        .btn-red { background-color: #BF0A30; color: white; padding: 15px 30px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block; margin: 10px; }
+        .btn-outline { border: 1px solid white; color: white; padding: 15px 30px; text-decoration: none; border-radius: 5px; display: inline-block; margin: 10px; }
+
+        .container { max-width: 800px; margin: auto; padding: 40px 20px; }
+        
+        .impact-box { background-color: #002664; color: white; padding: 30px; border-radius: 15px; border-left: 10px solid #B9722D; margin-top: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
+        .impact-box h3 { color: #B9722D; text-transform: uppercase; margin-top: 0; letter-spacing: 1px; }
+        .impact-box ul { list-style: none; padding: 0; }
+        .impact-box li { margin-bottom: 20px; display: flex; align-items: flex-start; }
+        .impact-box li span { color: #BF0A30; font-weight: bold; margin-right: 15px; font-size: 1.5rem; line-height: 1; }
+
+        .resource-section { background-color: #f9f9f9; padding: 60px 0; border-top: 1px solid #eee; text-align: center; }
+        .evidence-grid { display: grid; grid-template-columns: 1fr; gap: 20px; max-width: 800px; margin: 40px auto; padding: 0 20px; }
+        
+        .card { background: white; padding: 25px; border-radius: 12px; border-top: 6px solid #BF0A30; box-shadow: 0 4px 6px rgba(0,0,0,0.05); text-align: left; }
+        .card h3 { margin-top: 0; color: #002664; font-size: 1.4rem; }
+        
+        .link-btn { display: block; background: #f0f0f0; padding: 12px; margin-top: 8px; text-decoration: none; color: #BF0A30; font-weight: bold; border-radius: 6px; border: 1px solid #ddd; }
+        .link-btn:hover { background: #002664; color: white; border-color: #002664; }
+
+        .action-section { background-color: #BF0A30; color: white; text-align: center; padding: 80px 20px; }
+        .btn-blue { background-color: #002664; color: white; padding: 20px 40px; text-decoration: none; border-radius: 50px; font-size: 1.5rem; font-weight: bold; display: inline-block; box-shadow: 0 4px 15px rgba(0,0,0,0.3); }
+
+        footer { background-color: #002664; color: #888; text-align: center; padding: 40px 20px; font-size: 0.8rem; text-transform: uppercase; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div style="background:#BF0A30; display:inline-block; padding:4px 12px; border-radius:20px; font-size:0.7rem; font-weight:bold; margin-bottom:15px; color:white;">CASES: PZ-25-34, PZ-25-55, PZ-25-56</div>
+        <h1>Protect Our Community</h1>
+        <p>Standing together against the Dobson Farms/Tech Park industrial expansion.</p>
+        <a href="#action" class="btn-red">SEND OBJECTION</a>
+        <a href="#resources" class="btn-outline">VIEW EVIDENCE</a>
+    </header>
+
+    <div class="container">
+        <h2 style="text-align:center; color:#002664; text-transform:uppercase;">A Message to Our Neighbors</h2>
+        <p style="text-align:center; font-style:italic; font-size: 1.1rem; color:#555;">"These projects threaten the peace, safety, and desert character of our homes."</p>
+
+        <div class="impact-box">
+            <h3>Why We Object:</h3>
+            <ul>
+                <li><span>✕</span> <div><strong>Noise:</strong> 24/7 industrial hum linked to chronic stress and sleep loss.</div></li>
+                <li><span>✕</span> <div><strong>Water:</strong> Massive daily consumption in a vulnerable desert environment.</div></li>
+                <li><span>✕</span> <div><strong>Safety:</strong> BESS fire risks and toxic gas hazards near residential zones.</div></li>
+                <li><span>✕</span> <div><strong>Values:</strong> Heavy industrial blighting decreases nearby home values by 10-15%.</div></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="resources" class="resource-section">
+        <h2 style="color:#002664; text-transform:uppercase;">The Evidence Center</h2>
+        <div class="evidence-grid">
+            <div class="card">
+                <h3>🔇 Health & Noise</h3>
+                <a href="health-impact-statement.pdf" target="_blank" class="link-btn">Health Statement (PDF) →</a>
+                <a href="https://www.eesi.org/articles/view/communities-are-raising-noise-pollution-concernsabout-data-centers" target="_blank" class="link-btn">EESI National Study ↗</a>
+            </div>
+            <div class="card">
+                <h3>💧 Water & Cost</h3>
+                <a href="environmental-impact-cooling.pdf" target="_blank" class="link-btn">Cooling Study (PDF) →</a>
+                <a href="https://news.ucr.edu/articles/2026/03/09/data-center-water-spikes-could-cost-billions" target="_blank" class="link-btn">UC Riverside Research ↗</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="action" class="action-section">
+        <h2>Submit Your Objection</h2>
+        <p style="margin-bottom:40px;">Send your formal opposition regarding Dobson Farms/Tech Park to the Council.</p>
+        
+        <a href="mailto:towncouncil@florenceaz.gov?cc=albert.monroe@florenceaz.gov,Maricella.Benitez@florenez.gov,Lisa.Garcia@florenceaz.gov,Patricia.Buchanan@florenceaz.gov,Ian.Newcomb@florenceaz.gov&subject=Objection%20PZ-25-34%20PZ-25-55%20PZ-25-56&body=Dear%20Mayor%20and%20Council,%0A%0AI%20am%20writing%20to%20formally%20object%20to%20the%20Dobson%20Farms/Tech%20Park%20projects%20(Cases%20PZ-25-34,%20PZ-25-55,%20and%20PZ-25-56).%0A%0ARespectfully,%0A[Your%20Name]%0A[Your%20Address]" class="btn-blue">SEND EMAIL TO COUNCIL</a>
+        
+        <p style="margin-top:20px; font-size:0.8rem; color:#ddd;">Recipients: Primary + 5 CC addresses</p>
+    </div>
+
+    <footer>
+        <p style="color:white; font-weight:bold; margin-bottom:10px;">Community Advocacy Group of Florence, AZ</p>
+        <p>&copy; 2026 Not authorized by any candidate or candidate's committee.</p>
+    </footer>
+
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protect Our Neighborhood | Florence, AZ</title>
+    <style>
         /* Arizona Flag Inspired Palette */
         body { font-family: sans-serif; margin: 0; padding: 0; line-height: 1.6; color: #333; background-color: #fff; }
         
